@@ -32,7 +32,7 @@
             android:label="@string/title_item_list"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ItemDetailActivity"
+            android:name=".CodeyStuff.ItemDetailActivity"
             android:label="@string/title_item_detail"
             android:parentActivityName=".ItemListActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -47,6 +47,10 @@
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainChoiceActivity"
+            android:label="@string/title_activity_main_choice"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
